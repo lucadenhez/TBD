@@ -9,9 +9,10 @@ interface DecodeTextProps {
     text: string;
     className?: string;
     speed?: number; // higher number, slower speed
+    blockiness?: number // blockiness, more feels less like the matrix
 }
 
-export default function DecodeText({ text, className = "", speed = 40, ...props }: DecodeTextProps) {
+export default function DecodeText({ text, className = "", speed = 100, blockiness = 3, ...props }: DecodeTextProps) {
     const [displayText, setDisplayText] = useState("");
     const [isHovered, setIsHovered] = useState(false);
 
@@ -34,7 +35,7 @@ export default function DecodeText({ text, className = "", speed = 40, ...props 
                 clearInterval(interval);
             }
 
-            iteration += 1 / 3;
+            iteration += blockiness;
         }, speed);
     };
 

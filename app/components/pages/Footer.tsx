@@ -5,11 +5,11 @@ export default function Footer() {
     return (
         <footer className="mx-20 mb-20">
             <div className="w-full h-[10rem]" />
-            <div className="flex sm:flex-row flex-col gap-y-20 justify-between items-center">
+            <div className="flex sm:flex-row flex-col gap-y-20 justify-between items-start">
                 <Link href="https://www.seattleu.edu/" target="_blank">
                     <Image
-                        width={150}
-                        height={150}
+                        width={125}
+                        height={125}
                         src="/vectors/su_seal_bw.svg"
                         alt="Seattle University Seal"
                     />

@@ -23,7 +23,7 @@ export default function PageHeader({ title }: PageHeaderProps) {
             </Link>
             <DecodeText
                 text={title}
-                speed={50}
+                speed={125}
                 className="font-bold uppercase text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-[var(--accent)]"
             />
         </div>

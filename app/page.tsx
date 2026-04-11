@@ -22,25 +22,15 @@ export default function Home() {
 
       <div className="m-10 flex flex-col gap-3">
         <DecodeText
-          text="We are team [TBD]."
-          speed={50}
+          text="We are team [TBD]"
           className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-bold uppercase leading-tight"
         />
         <DecodeText
           text="Yes, that is our name."
-          speed={20}
           className="text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
         />
-        <DecodeText
-          text="Team 203 · Integrated Design Project · Spring `26"
-          speed={5}
-          className="text-[#C8FF00] lg:pt-0 pt-10 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
-        />
-        <DecodeText
-          text="Jairo, Luca, Calvin, Jesse, and Kai"
-          speed={5}
-          className="lg:pt-0 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
-        />
+        <p className="text-[#C8FF00] lg:pt-0 pt-10 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight">Team 203 · Integrated Design Project · Spring `26</p>
+        <p className="lg:pt-0 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight">Jairo, Luca, Calvin, Jesse, and Kai</p>
       </div>
 
       <div className="mx-10 my-30 flex sm:flex-row flex-col gap-x-10 gap-y-5 sm:items-start items-center">
