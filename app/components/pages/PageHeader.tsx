@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import DecodeText from "../animation/DecodeText";
 
 interface PageHeaderProps {
     title: string
@@ -20,7 +21,11 @@ export default function PageHeader({ title }: PageHeaderProps) {
                     <p className="font-bold uppercase">Go Back</p>
                 </div>
             </Link>
-            <h1 className="font-bold uppercase text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-[var(--accent)]">{title}</h1>
+            <DecodeText
+                text={title}
+                speed={50}
+                className="font-bold uppercase text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-[var(--accent)]"
+            />
         </div>
     );
 }

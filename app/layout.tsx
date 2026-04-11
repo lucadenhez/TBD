@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local';
 import "./globals.css";
-import Footer from "./components/home/Footer";
+import Footer from "./components/pages/Footer";
 import SmoothScroll from "./components/util/SmoothScroll";
 
 const customMonoFont = localFont({

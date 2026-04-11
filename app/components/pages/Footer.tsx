@@ -8,8 +8,8 @@ export default function Footer() {
             <div className="flex sm:flex-row flex-col gap-y-20 justify-between items-center">
                 <Link href="https://www.seattleu.edu/" target="_blank">
                     <Image
-                        width={175}
-                        height={175}
+                        width={150}
+                        height={150}
                         src="/vectors/su_seal_bw.svg"
                         alt="Seattle University Seal"
                     />

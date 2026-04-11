@@ -3,6 +3,7 @@
 import { ReactLenis, type LenisRef } from 'lenis/react';
 import { cancelFrame, frame } from 'framer-motion';
 import { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 
 interface SmoothScrollProps {
     children: React.ReactNode
@@ -10,22 +11,22 @@ interface SmoothScrollProps {
 
 export default function SmoothScroll({ children }: SmoothScrollProps) {
     const lenisRef = useRef<LenisRef>(null);
+    const pathname = usePathname();
 
     useEffect(() => {
-        // This connects Lenis's Request Animation Frame (raf) 
-        // to Framer Motion's internal game loop
         function update(data: { timestamp: number }) {
             lenisRef.current?.lenis?.raf(data.timestamp);
         }
-
-        // High-priority update in the framer-motion frame loop
         frame.update(update, true);
-
         return () => cancelFrame(update);
     }, []);
 
+    useEffect(() => {
+        lenisRef.current?.lenis?.scrollTo(0, { immediate: true });
+    }, [pathname]);
+
     return (
-        <ReactLenis root options={{ autoRaf: false }} ref={lenisRef}>
+        <ReactLenis root options={{ autoRaf: false, duration: 1.5 }} ref={lenisRef}>
             {children}
         </ReactLenis>
     );
