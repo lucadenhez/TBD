@@ -1,11 +1,11 @@
 {
-  "commit": "eeec0f769e2a554e206405c4cd1392102ef21a71",
-  "generated": "2026-04-11T22:46:43.571Z",
+  "commit": "2cdfcbf0d375fc5bab6976ef7cb546b2f34ab0be",
+  "generated": "2026-04-11T22:48:14.499Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "eeec0f769e2a554e206405c4cd1392102ef21a71",
-        "hash": "2208628127",
+        "commit": "2cdfcbf0d375fc5bab6976ef7cb546b2f34ab0be",
+        "hash": "1303212449",
         "path": "outstatic/content/team-minutes/week-2.mdx"
       },
       "author": {
