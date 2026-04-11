@@ -4,5 +4,11 @@
     "slug": "project-updates",
     "path": "outstatic/content/project-updates",
     "children": []
+  },
+  {
+    "title": "Team Minutes",
+    "slug": "team-minutes",
+    "path": "outstatic/content/team-minutes",
+    "children": []
   }
 ]
