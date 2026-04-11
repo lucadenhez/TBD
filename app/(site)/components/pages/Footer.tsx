@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="mx-20 mb-20">
+        <footer className="sm:mx-20 mx-7 mb-20">
             <div className="w-full h-[10rem]" />
-            <div className="flex sm:flex-row flex-col gap-y-20 justify-between items-start">
+            <div className="flex sm:flex-row flex-col gap-y-20 justify-between sm:items-start items-center">
                 <Link href="https://www.seattleu.edu/" target="_blank">
                     <Image
                         width={125}
@@ -14,8 +14,8 @@ export default function Footer() {
                         alt="Seattle University Seal"
                     />
                 </Link>
-                <div className="flex gap-7 flex-col items-center sm:items-end text-lg font-bold ">
-                    <p className="uppercase">Keep thinking, keep creating.</p>
+                <div className="flex gap-x-7 gap-y-10 flex-col items-center sm:items-end text-lg font-bold ">
+                    <p className="uppercase text-[#C8FF00]">Keep thinking, keep creating.</p>
 
                     <div className="flex gap-7 items-center">
                         <Link
