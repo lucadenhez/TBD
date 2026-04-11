@@ -1,15 +1,15 @@
 {
-  "commit": "",
-  "generated": "2026-04-11T22:46:31.282Z",
+  "commit": "eeec0f769e2a554e206405c4cd1392102ef21a71",
+  "generated": "2026-04-11T22:46:43.571Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "",
-        "hash": "3570757622",
+        "commit": "eeec0f769e2a554e206405c4cd1392102ef21a71",
+        "hash": "2208628127",
         "path": "outstatic/content/team-minutes/week-2.mdx"
       },
       "author": {
-        "name": "Luca Denhez",
+        "name": "Jairo",
         "picture": "https://avatars.githubusercontent.com/u/48540043?v=4"
       },
       "collection": "team-minutes",
