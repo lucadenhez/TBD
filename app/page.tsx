@@ -32,9 +32,14 @@ export default function Home() {
           className="text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
         />
         <DecodeText
-          text="Team 203 · Integrated Design Project · Spring `26 · Jairo, Luca, Calvin, Jesse, and Kai"
+          text="Team 203 · Integrated Design Project · Spring `26"
           speed={5}
-          className="lg:pt-0 pt-10 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
+          className="text-[#C8FF00] lg:pt-0 pt-10 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
+        />
+        <DecodeText
+          text="Jairo, Luca, Calvin, Jesse, and Kai"
+          speed={5}
+          className="lg:pt-0 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight"
         />
       </div>
 

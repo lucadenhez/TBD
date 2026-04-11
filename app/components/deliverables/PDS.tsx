@@ -17,8 +17,8 @@ export function PDS() {
                     ].map((row) => (
                         <div key={row.id} className="grid grid-cols-12 border-t border-white/10 p-4 text-sm hover:bg-white/5 transition-colors">
                             <div className="col-span-1 font-mono text-[#C8FF00]">0{row.id}</div>
-                            <div className="col-span-5 text-white font-bold uppercase">{row.function}</div>
-                            <div className="col-span-6 text-white/60">{row.requirement}</div>
+                            <div className="col-span-5 text-white font-bold uppercase px-3">{row.function}</div>
+                            <div className="col-span-6 text-white/60 text-right">{row.requirement}</div>
                         </div>
                     ))}
                 </div>
@@ -35,7 +35,7 @@ export function PDS() {
                     ].map((item, i) => (
                         <div key={i} className="flex justify-between items-center p-4 border-l-4 border-[#C8FF00] bg-white/5 rounded-r-xl">
                             <span className="text-xs uppercase font-black text-white/80">{item.constraint}</span>
-                            <span className="text-sm font-bold text-[#C8FF00] uppercase tracking-tighter">{item.limit}</span>
+                            <span className="text-sm font-bold text-[#C8FF00] uppercase tracking-tighter text-right">{item.limit}</span>
                         </div>
                     ))}
                 </div>
