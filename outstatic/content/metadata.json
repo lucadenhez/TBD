@@ -1,0 +1,22 @@
+{
+  "commit": "",
+  "generated": "2026-04-11T22:46:31.282Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "3570757622",
+        "path": "outstatic/content/team-minutes/week-2.mdx"
+      },
+      "author": {
+        "name": "Luca Denhez",
+        "picture": "https://avatars.githubusercontent.com/u/48540043?v=4"
+      },
+      "collection": "team-minutes",
+      "publishedAt": "2026-04-11T22:01:57.115Z",
+      "slug": "week-2",
+      "status": "published",
+      "title": "Week 2"
+    }
+  ]
+}
