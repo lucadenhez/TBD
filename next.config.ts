@@ -1,7 +1,6 @@
+import { withPayload } from "@payloadcms/next/withPayload";
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  allowedDevOrigins: ['bf65-2601-602-9602-8820-502-c669-cb11-8003.ngrok-free.app'],
-};
+const nextConfig: NextConfig = {};
 
-export default nextConfig;
+export default withPayload(nextConfig);

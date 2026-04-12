@@ -24,16 +24,16 @@ export default function Footer() {
                             className="border-2 border-white/70 p-3 rounded-full"
                         >
                             <Image
-                                width={30}
-                                height={30}
+                                width={21}
+                                height={21}
                                 src="/vectors/github.svg"
                                 alt="Github Logo"
                             />
                         </Link>
                         <Link href="https://notbyai.fyi/" target="_blank">
                             <Image
-                                width={175}
-                                height={175}
+                                width={150}
+                                height={150}
                                 src="/vectors/no_ai.svg"
                                 alt="Not made with AI badge"
                             />

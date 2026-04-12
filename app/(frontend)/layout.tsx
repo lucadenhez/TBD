@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from 'next/font/local';
 import "./globals.css";
 import Footer from "./components/pages/Footer";
+import SmoothScroll from "./components/util/SmoothScroll";
 
 const customMonoFont = localFont({
   src: [
@@ -42,11 +43,12 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${customMonoFont.className} h-full antialiased`}
-      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>
-        {children}
-        <Footer />
+      <body className="min-h-full flex flex-col">
+        <SmoothScroll>
+          {children}
+          <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );
