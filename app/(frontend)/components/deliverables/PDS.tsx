@@ -49,7 +49,7 @@ export function PDS() {
                         { objective: "Launch bean bag", number: "10 feet", metric: "bean bag flies (or further)" },
                         { objective: "Score the most points", number: "100 ppm", metric: "(points per minute)" },
                     ].map((item, i) => (
-                        <div key={i} className="bg-[#C8FF00] p-6 rounded-2xl flex flex-col justify-between h-fit">
+                        <div key={i} className="bg-[#C8FF00] p-6 rounded-2xl flex flex-col justify-start h-full">
                             <p className=" text-md font-black uppercase text-black/50 mb-3">{item.objective}</p>
                             <div className="flex flex-col">
                                 <p className="text-5xl pb-5 font-bold text-black">{item.number} </p>

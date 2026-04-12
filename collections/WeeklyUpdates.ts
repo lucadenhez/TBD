@@ -1,7 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
-export const TeamMinutes: CollectionConfig = {
-  slug: 'team-minutes',
+export const WeeklyUpdates: CollectionConfig = {
+  slug: 'weekly-updates',
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'date', 'status'],

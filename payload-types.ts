@@ -69,7 +69,7 @@ export interface Config {
   collections: {
     users: User;
     media: Media;
-    'team-minutes': TeamMinute;
+    'weekly-updates': WeeklyUpdate;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -79,7 +79,7 @@ export interface Config {
   collectionsSelect: {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
-    'team-minutes': TeamMinutesSelect<false> | TeamMinutesSelect<true>;
+    'weekly-updates': WeeklyUpdatesSelect<false> | WeeklyUpdatesSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -165,9 +165,9 @@ export interface Media {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "team-minutes".
+ * via the `definition` "weekly-updates".
  */
-export interface TeamMinute {
+export interface WeeklyUpdate {
   id: string;
   title: string;
   date: string;
@@ -223,8 +223,8 @@ export interface PayloadLockedDocument {
         value: string | Media;
       } | null)
     | ({
-        relationTo: 'team-minutes';
-        value: string | TeamMinute;
+        relationTo: 'weekly-updates';
+        value: string | WeeklyUpdate;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -310,9 +310,9 @@ export interface MediaSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "team-minutes_select".
+ * via the `definition` "weekly-updates_select".
  */
-export interface TeamMinutesSelect<T extends boolean = true> {
+export interface WeeklyUpdatesSelect<T extends boolean = true> {
   title?: T;
   date?: T;
   notes?: T;

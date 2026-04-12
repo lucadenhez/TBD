@@ -8,7 +8,7 @@ import BackButton from "../components/pages/BackButton";
 
 export default function Deliverables() {
     return (
-        <div className="sm:m-20 m-7 flex flex-col gap-20">
+        <div className="sm:mx-20 mx-7 sm:my-20 my-10 flex flex-col gap-20">
             <PageHeader title="Deliverables" />
 
             <div>
