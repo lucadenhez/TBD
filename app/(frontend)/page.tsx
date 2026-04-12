@@ -7,7 +7,7 @@ import DecodeText from "./components/animation/DecodeText";
 export default function Home() {
   return (
     <main className="flex flex-col gap-5 relative">
-      <div className="opacity-60 absolute h-full w-full z-20 inset-0 mask-radial-at-top-right mask-circle mask-radial-to-[50%] topographic" />
+      <div className="opacity-50 absolute h-full w-full z-20 inset-0 mask-radial-at-top-right mask-circle mask-radial-to-[50%] topographic" />
       <div className="relative w-full overflow-hidden flex items-center justify-center max-h-[calc(100vh-400px)]">
         <div className="bg-linear-to-b from-transparent to-[#0a0a0a] via-black/50 absolute w-full bottom-0 h-full z-10" />
         <Image

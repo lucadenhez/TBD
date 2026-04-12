@@ -12,7 +12,7 @@ export default function TeamOperations() {
                 <div className="flex flex-wrap gap-x-8 gap-y-4">
                     {norms.map((norm, i) => (
                         <div key={norm} className="flex items-center gap-3">
-                            <span className="text-[#C8FF00] font-mono text-xs">0{i + 1}</span>
+                            <span className="text-[#C8FF00] text-xs">0{i + 1}</span>
                             <span className="text-white uppercase font-medium tracking-tight">{norm}</span>
                         </div>
                     ))}

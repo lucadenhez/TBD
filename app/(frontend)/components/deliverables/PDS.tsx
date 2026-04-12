@@ -16,7 +16,7 @@ export function PDS() {
                         { id: 4, function: "Launch bean bag", requirement: "Release energy " },
                     ].map((row) => (
                         <div key={row.id} className="grid grid-cols-12 border-t border-white/10 p-4 text-sm hover:bg-white/5 transition-colors">
-                            <div className="col-span-1 font-mono text-[#C8FF00]">0{row.id}</div>
+                            <div className="col-span-1 text-[#C8FF00]">0{row.id}</div>
                             <div className="col-span-5 text-white font-bold uppercase px-3">{row.function}</div>
                             <div className="col-span-6 text-white/60 text-right">{row.requirement}</div>
                         </div>

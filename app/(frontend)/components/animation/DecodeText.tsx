@@ -45,7 +45,7 @@ export default function DecodeText({ text, className = "", speed = 100, blockine
 
     return (
         <motion.span
-            className={`font-mono inline-block cursor-default ${className}`}
+            className={`inline-block cursor-default ${className}`}
         >
             <p {...props}>
                 {displayText}

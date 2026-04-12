@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PageHeader from "../components/pages/PageHeader";
+import BackButton from "../components/pages/BackButton";
 
 export default function About() {
     const team = [
@@ -89,6 +90,7 @@ export default function About() {
                     </div>
                 ))}
             </div>
+            <BackButton />
         </div>
     );
 }
