@@ -46,7 +46,7 @@ export default async function Updates() {
                                             prose-headings:text-white prose-headings:text-xl
                                             prose-a:text-[#C8FF00] 
                                             prose-strong:text-white
-                                            prose-ul:leading-tight prose-li:marker:text-[#C8FF00]">
+                                            prose-ul:leading-tight prose-ul:text-white/90 prose-li:marker:text-[#C8FF00]">
                                 <RichText content={update.notes} />
                             </div>
                         </div>
