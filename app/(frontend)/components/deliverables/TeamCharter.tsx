@@ -54,7 +54,7 @@ export default function TeamCharter() {
                         <div className="flex items-center gap-4">
                             <div>
                                 <h4 className="text-xs uppercase font-black opacity-60 leading-none mb-2">Primary Output</h4>
-                                <p className="text-xl font-black uppercase leading-none">Published to website via RSS</p>
+                                <p className="text-xl font-black uppercase leading-none">Published to website</p>
                             </div>
                         </div>
                     </div>
