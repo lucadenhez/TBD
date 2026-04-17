@@ -1,4 +1,4 @@
-export function PDS() {
+export default function PDS() {
     return (
         <div className="flex flex-col gap-10">
             <section>

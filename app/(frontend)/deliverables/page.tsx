@@ -1,29 +1,23 @@
 import PageHeader from "../components/pages/PageHeader";
 import SectionHeader from "../components/pages/SectionHeader";
-import TeamRoles from "../components/deliverables/TeamRoles";
-import TeamContact from "../components/deliverables/TeamContact";
-import TeamOperations from "../components/deliverables/TeamOperations";
-import { PDS } from "../components/deliverables/PDS";
+import PDS from "../components/deliverables/PDS";
 import BackButton from "../components/pages/BackButton";
+import TeamRoster from "../components/deliverables/TeamRoster";
+import TeamCharter from "../components/deliverables/TeamCharter";
 
 export default function Deliverables() {
     return (
-        <div className="sm:mx-20 mx-7 sm:my-20 my-10 flex flex-col gap-20">
+        <div className="min-h-full sm:mx-20 mx-7 sm:my-20 my-10 flex flex-col gap-20">
             <PageHeader title="Deliverables" />
 
             <div>
-                <SectionHeader title="Roles" />
-                <TeamRoles />
+                <SectionHeader title="Team Roster" />
+                <TeamRoster />
             </div>
 
             <div>
-                <SectionHeader title="Contact" />
-                <TeamContact />
-            </div>
-
-            <div>
-                <SectionHeader title="Operations" />
-                <TeamOperations />
+                <SectionHeader title="Team Charter" />
+                <TeamCharter />
             </div>
 
             <div>
