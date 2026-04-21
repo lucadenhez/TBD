@@ -9,11 +9,18 @@ import BackButton from "../components/pages/BackButton";
 export default async function Updates() {
     const payload = await getPayload({ config })
 
+    /*
     const updates = await payload.find({
         collection: 'weekly-updates',
         where: {
             status: { equals: 'published' }
         },
+        sort: '-date',
+    });
+    */
+
+    const updates = await payload.find({
+        collection: 'weekly-updates',
         sort: '-date',
     });
 

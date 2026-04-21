@@ -7,7 +7,7 @@ import TeamCharter from "../components/deliverables/TeamCharter";
 
 export default function Deliverables() {
     return (
-        <div className="min-h-full sm:mx-20 mx-7 sm:my-20 my-10 flex flex-col gap-20">
+        <div className="sm:mx-20 mx-7 sm:my-20 my-10 flex flex-col gap-20">
             <PageHeader title="Deliverables" />
 
             <div>

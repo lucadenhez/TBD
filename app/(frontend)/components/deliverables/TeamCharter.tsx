@@ -13,7 +13,7 @@ export default function TeamCharter() {
                     </div>
                 </div>
 
-                <div className="border border-[#C8FF00] p-6 rounded-2xl flex flex-col">
+                <div className="border border-[#C8FF00] p-6 rounded-2xl flex flex-col gap-3">
                     <h4 className="text-[#C8FF00] text-sm uppercase tracking-widest font-black">Meeting Schedule</h4>
                     <div className="flex flex-col gap-2">
                         <div className="flex justify-between border-b border-[#C8FF00]/30 pb-1">
