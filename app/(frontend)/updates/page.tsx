@@ -5,22 +5,16 @@ import PageHeader from "../components/pages/PageHeader";
 import RichText from "../components/updates/RichText";
 import BackButton from "../components/pages/BackButton";
 
+export const dynamic = 'force-dynamic'; // check database for new weekly updates on page reload
 
 export default async function Updates() {
     const payload = await getPayload({ config })
 
-    /*
     const updates = await payload.find({
         collection: 'weekly-updates',
         where: {
             status: { equals: 'published' }
         },
-        sort: '-date',
-    });
-    */
-
-    const updates = await payload.find({
-        collection: 'weekly-updates',
         sort: '-date',
     });
 
