@@ -40,11 +40,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${customMonoFont.className} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
+    <html lang="en" className={`${customMonoFont.className} antialiased`}>
+      <body>
         <SmoothScroll>
           {children}
           <Footer />

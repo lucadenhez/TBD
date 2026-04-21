@@ -44,6 +44,8 @@ export default async function Updates() {
                             <div className="text-white/70 max-w-2xl
                                             prose prose-invert
                                             prose-img:rounded-2xl prose-img:border prose-img:border-white/5
+                                            prose-p:text-white
+                                            text-white
                                             prose-headings:text-white prose-headings:text-xl
                                             prose-a:text-[#C8FF00] 
                                             prose-strong:text-white
