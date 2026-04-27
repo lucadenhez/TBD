@@ -33,7 +33,7 @@ export default function Home() {
         <p className="lg:pt-0 text-right text-md sm:text-md md:text-md lg:text-lg xl:text-lg uppercase leading-tight">Calvin, Luca, Jairo, Jesse, and Kai</p>
       </div>
 
-      <div className="sm:mx-20 m-7 my-30 flex sm:flex-row flex-col gap-x-10 gap-y-5 sm:items-start items-center">
+      <div className="sm:mx-20 m-7 my-30 flex sm:flex-row flex-col xl:gap-x-10 gap-x-5 gap-y-5 sm:items-start items-center">
         <PrimaryButton
           text="Deliverables"
           target="/deliverables"

@@ -45,7 +45,7 @@ export default function RootLayout({
         <SmoothScroll>
           {children}
           <Footer />
-        </SmoothScroll>
+        </ SmoothScroll>
       </body>
     </html>
   );

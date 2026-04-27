@@ -41,7 +41,7 @@ export default async function Updates() {
                             <h2 className="font-bold text-4xl text-white tracking-tighter uppercase leading-none">
                                 {update.title}
                             </h2>
-                            <div className="text-white/70 max-w-2xl
+                            <div className="text-white/70 sm:max-w-2/3 max-w-full
                                             prose prose-invert
                                             prose-img:rounded-2xl prose-img:border prose-img:border-white/5
                                             prose-p:text-white
