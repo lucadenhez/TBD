@@ -16,6 +16,7 @@ export default async function Updates() {
             status: { equals: 'published' }
         },
         sort: '-date',
+        pagination: false
     });
 
     return (

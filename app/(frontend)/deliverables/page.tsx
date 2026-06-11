@@ -4,11 +4,28 @@ import PDS from "../components/deliverables/PDS";
 import BackButton from "../components/pages/BackButton";
 import TeamRoster from "../components/deliverables/TeamRoster";
 import TeamCharter from "../components/deliverables/TeamCharter";
+import PowerPoint from "../components/deliverables/PowerPoint";
+import IndustryConsultants from "../components/deliverables/IndustryConsultants";
 
 export default function Deliverables() {
     return (
         <div className="sm:mx-20 mx-7 sm:my-20 my-10 flex flex-col gap-20">
             <PageHeader title="Deliverables" />
+
+            <div>
+                <SectionHeader title="CDR" />
+                <PowerPoint fileName="CDR.pptx" />
+            </div>
+
+            <div>
+                <SectionHeader title="PDR" />
+                <PowerPoint fileName="PDR.pptx" />
+            </div>
+
+            <div>
+                <SectionHeader title="Industry Consultant Interaction Summary" />
+                <IndustryConsultants />
+            </div>
 
             <div>
                 <SectionHeader title="Team Roster" />
